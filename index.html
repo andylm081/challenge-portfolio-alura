@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anderson Lima</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://kit.fontawesome.com/163b3848e1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    
+    <header class="nav__container">
+        <nav class="menu-nav">
+            <span class="name-header">
+                <img src="/assets/Group.png" />
+                Anderson Lima
+            </span>
+            <ul class="menu-list">
+                <li class="menu-item"><a href="#main" class="menu-link">Home</a></li>
+                <li class="menu-item"><a href="#skills" class="menu-link">Skills</a></li>
+                <li class="menu-item"><a href="#academica" class="menu-link">Formação</a></li>
+                <li class="menu-item"><a href="#projects" class="menu-link">Projetos</a></li>
+                <li class="menu-item"><a href="#contact" class="menu-link">Contato</a></li>
+                
+
+            </ul>
+        </nav>
+    </header>
+    <main id="main" class="main-content">
+        <h1 class ="main-title" id="main-title"></h1>
+        <p class="main-text">Sou Designer Gráfico e estudante de Desenvolvimento de sistemas. No momento estou cursando a formação Desenvolvimento de Sistemas da ETEPAC. Participo também do projeto ONE (Oracle Next Education) da Alura, com foco em Front-End</p>
+        <a href="" class="curriculo" target="_blank">Acesse meu currículo!</a>
+    </main> 
+            <hr class="separator">
+       
+              <!-- skills -->
+        <section id="skills" class="skills">
+            <h2 class="skill-title">Skills</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <i class="fa-brands fa-html5"></i>
+                    <p class="skill-name">HTML</p>
+                </div>
+                <div class="skill">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <p class="skill-name">CSS</p>
+                </div>
+                <div class="skill">
+                    <i class="fa-brands fa-js"></i>
+                    <p class="skill-name">JavaScript</p>
+                </div>
+                <div class="skill">
+                    <i class="fa-brands fa-git"></i>
+                    <p class="skill-name">Git</p>
+                </div>
+                <div class="skill">
+                    <i class="fa-brands fa-github"></i>
+                    <p class="skill-name">GitHub</p>
+                </div>
+            </div>
+            </section>
+
+            <hr class="separator">
+<!--     formação academica -->
+
+            <section class="academica" id="academica">
+                <h2 class="section-title">Formação Acadêmica</h2>
+                <div class="academica-container">
+                    <div class="academica">
+                        <img src="/assets/ete-logo-C00FB6F54C-seeklogo.com.png" alt="ETEPAC" class="academica-image">
+                        <p class="academica-title">ETEPAC</p>
+                        <p class="academica-description">Técnico em Desenvolvimento de Sistemas</p>
+                    </div>
+                    <div class="academica">
+                        <img src="/assets/guia-cursos-one-800x450.png" alt="Alura" class="academica-image">
+                        <p class="academica-title">ONE - Oracle Next Education</p>
+                        <p class="academica-description">Formação Front-End</p>
+                    </div>
+                </div>
+            </section>
+            <hr class="separator">
+            <!-- projetos -->
+            <section id="projects" class="projects">
+                <h2 class="section-title">Alguns Projetos</h2>
+                <div class="projects-container">
+                    <div class="project">
+                        <img src="/projetos/jogo-do-numero-secreto.png" alt="Jogo do Número Secreto" class="project-image">
+                        <div class="project-info">
+                        <p class="project-title">Jogo do Número Secreto</p>
+                        <a href="" target="_blank" class="project-link">Deploy</a>
+                        <a href="" target="_blank" class="project-link">Repositório</a>
+                    </div>
+                    </div>
+                    <div class="project">
+                        <img src="/projetos/Decodificador.png" alt="Decodificador" class="project-image">
+                        <div class="project-info">
+                        <p class="project-title">Decodificador</p>
+                        <a href="" target="_blank" class="project-link">Deploy</a>
+                        <a href="" target="_blank" class="project-link" fa-regular fa-folder-open>Repositório</a>
+                    </div>
+                </div>
+                </section>
+                <hr class="separator">
+                <!-- contato -->
+                <section id="contact" class="contact">
+                    <h2 class="section-title">Contato</h2>
+                    <div class="contact-container">
+                        <a href="https://www.linkedin.com/in/andersonlima-dev/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com/andylm081" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/andylm.dev/?next=%2F" target="_blank"><i class="fa-brands fa-instagram"></i></a>     
+                    </div>
+                </section>
+                    <!-- entre em contato -->
+                    <div class="contact-form">
+                        <form class="form" id="form">
+                            <label for="name" class="form-label">Nome</label>
+                            <input type="text" id="name" class="form-input" placeholder="Digite seu nome">
+                            <span id="name-error" class="error-message"></span>
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" class="form-input" placeholder="Digite seu melhor email">
+                            <span id="email-error" class="error-message"></span>
+                            <label for="message" class="form-label">Mensagem</label>
+                            <textarea name="message" id="message" class="form-textarea" rows="4" cols="50" placeholder="Me envie uma mensagem, vamos conversar!"></textarea>
+                            <span id="message-error" class="error-message"></span>
+                            <button type="submit" class="form-button">Enviar</button>
+                        </form>
+                    </div>
+
+<!--     rodapé -->
+                    <footer class="footer">
+                        <p class="footer-text">Desenvolvido por Anderson Lima - 2024</p>
+
+
+    <script src="/js/animacao-texto-apresentacao.js"></script>
+    <script src="/js/validacao.js"></script>
+</body>
+</html>
